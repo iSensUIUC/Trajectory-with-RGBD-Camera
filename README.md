@@ -18,3 +18,7 @@ While replaying the saved ROS bag file, open another terminal and execute the fo
 
 ```bash
 rosbag record -O your_bag_filename.bag /odometry/filtered /tf /tf_static /clock
+
+The new ROS bag is compatible with any ROS workspace, which provides flexibility for further analysis or visualization in different environments.
+
+## Extracting Odometry Data
