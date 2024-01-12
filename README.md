@@ -18,7 +18,13 @@ While replaying the saved ROS bag file, open another terminal and execute the fo
 
 ```bash
 rosbag record -O your_bag_filename.bag /odometry/filtered /tf /tf_static /clock
-
+```
 The new ROS bag is compatible with any ROS workspace, which provides flexibility for further analysis or visualization in different environments.
 
 ## Extracting Odometry Data
+
+You can extract odometry data from the new ROS bag in any ROS environment using the provided Python script. Execute the script as follows:
+```bash
+python script_name.py /path/to/your/bagfile.bag /path/to/output.csv
+```
+The script will output a CSV file named output.csv that contains the odometry data extracted from the ROS bag.
