@@ -21,6 +21,18 @@ rosbag record -O your_bag_filename.bag /odometry/filtered /tf /tf_static /clock
 ```
 The new ROS bag is compatible with any ROS workspace, which provides flexibility for further analysis or visualization in different environments.
 
+## Review the Odometry with Rviz
+
+In one terminal, run the following command to play the recorded ROS bag:
+```bash
+rosbag play your_bag_filename.bag
+```
+In another terminal, run 
+```bash
+rviz
+```
+and then, import the 
+
 ## Extracting Odometry Data
 
 You can extract odometry data from the new ROS bag in any ROS environment using the provided Python script. Execute the script as follows:
