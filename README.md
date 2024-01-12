@@ -31,7 +31,7 @@ In another terminal, run
 ```bash
 rviz
 ```
-and then, import the 
+and then, import the odom.rviz as the configuration file.  
 
 ## Extracting Odometry Data
 
