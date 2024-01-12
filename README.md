@@ -1,4 +1,3 @@
-# Trajectory-with-RGBD-Camera
 # Room Scanning with D435i Camera and ROS
 
 This guide walks through the process of scanning a room using the D435i camera and saving the data as a ROS bag following the Intel RealSense tutorial.
