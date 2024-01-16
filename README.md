@@ -37,6 +37,6 @@ and then, import the odom.rviz as the configuration file.
 
 You can extract odometry data from the new ROS bag in any ROS environment using the provided Python script. Execute the script as follows:
 ```bash
-python script_name.py /path/to/your/bagfile.bag /path/to/output.csv
+python3 script_name.py /path/to/your/bagfile.bag /path/to/output.csv
 ```
 The script will output a CSV file named output.csv that contains the odometry data extracted from the ROS bag.
